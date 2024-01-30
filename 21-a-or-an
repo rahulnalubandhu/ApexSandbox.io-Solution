@@ -1,11 +1,7 @@
 public String aOrAn(String word) {
-    //code here
-    
-    if (word.startswith('a,e,i,o,u')){
-        System.debug('an '+word);
-    }
-    else{
-        System.debug('a '+word);
-    }
+
+    String article= (word.startsWith('a')|| word.startsWith('e')|| word.startsWith('i')|| word.startsWith('o') || word.startsWith('u')) ? 'an '+word : 'a '+word;
+
+    return article;
 
 }
