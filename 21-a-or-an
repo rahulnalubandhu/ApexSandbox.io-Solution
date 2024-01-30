@@ -1,0 +1,7 @@
+public String aOrAn(String word) {
+    //code here
+    String vowel = ['a','e','i','o','u'];
+    if(word[0]==vowel){
+        return word;
+    }
+}
