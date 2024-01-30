@@ -1,5 +1,11 @@
 public String aOrAn(String word) {
     //code here
-System.debug(word.startswith('a,e,i,o,u'));
     
+    if (word.startswith('a,e,i,o,u')){
+        System.debug('an '+word);
+    }
+    else{
+        System.debug('a '+word);
+    }
+
 }
